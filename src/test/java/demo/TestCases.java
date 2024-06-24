@@ -1,5 +1,6 @@
 package demo;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -12,13 +13,15 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestCases {
-   static  ChromeDriver driver;
-
+    static  ChromeDriver driver;
+    
     /*
      * TODO: Write your tests here with testng @Test annotation. 
      * Follow `testCase01` `testCase02`... format or what is provided in instructions
@@ -63,7 +66,8 @@ public class TestCases {
         searchBox.clear();
         searchBox.sendKeys("Washing Machine");
         searchBox.sendKeys(Keys.ENTER);
-        Thread.sleep(3000);
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Popularity']")));
         //3. Sort by popularity and print the count of items with rating less than or equal to 4 stars.
         WebElement sortByElement = driver.findElement(By.xpath("//div[text()='Popularity']"));
         sortByElement.click();
@@ -174,10 +178,9 @@ public class TestCases {
         List<String> newReview = new ArrayList<String>(reviewLst);
         int largestString = newReview.get(0).length();
         for (int i = 0; i <= 5 ; i++) {
-            if(newReview.get(i).length() > largestString){
-                System.out.println("title of coffeemug is : "+newTitle.get(i));
-                System.out.println("img url of coffeemug is : "+newImgUrl.get(i));
-            }
+            if(newReview.get(i).length() > largestString)
+                System.out.println("title of coffeemug is : "+newTitle.get(i)+" img url of coffeemug is : "+newImgUrl.get(i));
+            
         }
         System.out.println("End Test case: testCase03");
     }
