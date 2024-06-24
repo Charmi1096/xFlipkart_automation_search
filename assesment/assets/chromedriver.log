@@ -1,0 +1,2271 @@
+[1719211655.796][INFO]: Starting ChromeDriver 126.0.6478.63 (df799988fdc9c52db48650316d53800b1e9aa69e-refs/branch-heads/6478_56@{#5}) on port 47114
+[1719211655.796][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1719211656.386][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1719211656.386][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1719211656.387][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1719211656.387][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1719211656.387][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1719211656.389][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Charmi\AppData\Local\Temp\scoped_dir18900_2118907445" data:,
+[1719211656.911][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1719211656.914][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "126.0.6478.114",
+      "chrome": {
+         "chromedriverVersion": "126.0.6478.63 (df799988fdc9c52db48650316d53800b1e9aa69e-refs/branch-heads/6478_56@{#5})",
+         "userDataDir": "C:\\Users\\Charmi\\AppData\\Local\\Temp\\scoped_dir18900_2118907445"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52010"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c79de09ec766421355deebd6b53f1210"
+}
+[1719211657.048][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND MaximizeWindow {
+}
+[1719211657.048][INFO]: Waiting for pending navigations...
+[1719211657.051][INFO]: Done waiting for pending navigations. Status: ok
+[1719211657.078][INFO]: Waiting for pending navigations...
+[1719211657.079][INFO]: Done waiting for pending navigations. Status: ok
+[1719211657.079][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1719211657.092][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1719211657.092][INFO]: Waiting for pending navigations...
+[1719211657.093][INFO]: Done waiting for pending navigations. Status: ok
+[1719211657.623][INFO]: Waiting for pending navigations...
+[1719211658.499][INFO]: Done waiting for pending navigations. Status: ok
+[1719211658.499][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE Navigate
+[1719211661.519][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1719211661.519][INFO]: Waiting for pending navigations...
+[1719211661.523][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.545][INFO]: Waiting for pending navigations...
+[1719211661.545][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.545][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.AABC417808DBE2CAB9F01A5E15EA5953.e.112"
+}
+[1719211661.554][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND ClearElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.AABC417808DBE2CAB9F01A5E15EA5953.e.112"
+}
+[1719211661.554][INFO]: Waiting for pending navigations...
+[1719211661.555][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.581][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1719211661.593][INFO]: Waiting for pending navigations...
+[1719211661.594][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.594][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE ClearElement
+[1719211661.600][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.AABC417808DBE2CAB9F01A5E15EA5953.e.112",
+   "text": "Washing Machine",
+   "value": [ "W", "a", "s", "h", "i", "n", "g", " ", "M", "a", "c", "h", "i", "n", "e" ]
+}
+[1719211661.600][INFO]: Waiting for pending navigations...
+[1719211661.601][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.717][INFO]: Waiting for pending navigations...
+[1719211661.726][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.726][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211661.735][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.AABC417808DBE2CAB9F01A5E15EA5953.e.112",
+   "text": "",
+   "value": [ "" ]
+}
+[1719211661.735][INFO]: Waiting for pending navigations...
+[1719211661.735][INFO]: Done waiting for pending navigations. Status: ok
+[1719211661.788][INFO]: Waiting for pending navigations...
+[1719211665.164][INFO]: Done waiting for pending navigations. Status: ok
+[1719211665.164][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211668.181][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='Popularity']"
+}
+[1719211668.181][INFO]: Waiting for pending navigations...
+[1719211668.183][INFO]: Done waiting for pending navigations. Status: ok
+[1719211668.233][INFO]: Waiting for pending navigations...
+[1719211668.234][INFO]: Done waiting for pending navigations. Status: ok
+[1719211668.234][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.256"
+}
+[1719211668.238][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND ClickElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.256"
+}
+[1719211668.238][INFO]: Waiting for pending navigations...
+[1719211668.239][INFO]: Done waiting for pending navigations. Status: ok
+[1719211668.509][INFO]: Waiting for pending navigations...
+[1719211668.513][INFO]: Done waiting for pending navigations. Status: ok
+[1719211668.513][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE ClickElement
+[1719211671.534][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='_75nlfW']"
+}
+[1719211671.534][INFO]: Waiting for pending navigations...
+[1719211671.536][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.562][INFO]: Waiting for pending navigations...
+[1719211671.563][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.563][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.272"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.273"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.274"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.275"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.276"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.277"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.278"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.279"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.280"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.281"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.282"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.283"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.284"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.285"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.286"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.287"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.288"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.289"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.290"
+}, "..." ]
+[1719211671.570][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='XQDdHH']"
+}
+[1719211671.570][INFO]: Waiting for pending navigations...
+[1719211671.571][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.598][INFO]: Waiting for pending navigations...
+[1719211671.599][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.599][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.296"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.297"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.298"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.299"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.300"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.302"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.303"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.304"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.305"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.306"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.307"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.308"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.309"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.310"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.311"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.312"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.313"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.314"
+}, "..." ]
+[1719211671.606][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.296"
+}
+[1719211671.606][INFO]: Waiting for pending navigations...
+[1719211671.642][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.678][INFO]: Waiting for pending navigations...
+[1719211671.679][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.679][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.684][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.297"
+}
+[1719211671.684][INFO]: Waiting for pending navigations...
+[1719211671.685][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.693][INFO]: Waiting for pending navigations...
+[1719211671.693][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.693][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.5"
+[1719211671.698][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.298"
+}
+[1719211671.698][INFO]: Waiting for pending navigations...
+[1719211671.698][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.707][INFO]: Waiting for pending navigations...
+[1719211671.707][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.707][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.710][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.299"
+}
+[1719211671.710][INFO]: Waiting for pending navigations...
+[1719211671.710][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.715][INFO]: Waiting for pending navigations...
+[1719211671.715][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.715][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.718][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.300"
+}
+[1719211671.718][INFO]: Waiting for pending navigations...
+[1719211671.719][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.727][INFO]: Waiting for pending navigations...
+[1719211671.727][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.727][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.731][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.301"
+}
+[1719211671.731][INFO]: Waiting for pending navigations...
+[1719211671.731][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.736][INFO]: Waiting for pending navigations...
+[1719211671.736][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.736][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.738][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.302"
+}
+[1719211671.738][INFO]: Waiting for pending navigations...
+[1719211671.739][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.750][INFO]: Waiting for pending navigations...
+[1719211671.751][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.751][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.754][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.303"
+}
+[1719211671.754][INFO]: Waiting for pending navigations...
+[1719211671.755][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.767][INFO]: Waiting for pending navigations...
+[1719211671.768][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.768][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.2"
+[1719211671.771][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.304"
+}
+[1719211671.771][INFO]: Waiting for pending navigations...
+[1719211671.772][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.781][INFO]: Waiting for pending navigations...
+[1719211671.782][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.782][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.785][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.305"
+}
+[1719211671.785][INFO]: Waiting for pending navigations...
+[1719211671.785][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.795][INFO]: Waiting for pending navigations...
+[1719211671.799][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.799][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.2"
+[1719211671.802][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.306"
+}
+[1719211671.802][INFO]: Waiting for pending navigations...
+[1719211671.803][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.812][INFO]: Waiting for pending navigations...
+[1719211671.813][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.813][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.816][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.307"
+}
+[1719211671.816][INFO]: Waiting for pending navigations...
+[1719211671.816][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.825][INFO]: Waiting for pending navigations...
+[1719211671.826][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.826][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.828][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.308"
+}
+[1719211671.828][INFO]: Waiting for pending navigations...
+[1719211671.828][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.836][INFO]: Waiting for pending navigations...
+[1719211671.837][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.837][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.839][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.309"
+}
+[1719211671.839][INFO]: Waiting for pending navigations...
+[1719211671.840][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.847][INFO]: Waiting for pending navigations...
+[1719211671.847][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.847][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.1"
+[1719211671.849][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.310"
+}
+[1719211671.849][INFO]: Waiting for pending navigations...
+[1719211671.850][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.855][INFO]: Waiting for pending navigations...
+[1719211671.856][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.856][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.858][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.311"
+}
+[1719211671.858][INFO]: Waiting for pending navigations...
+[1719211671.859][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.864][INFO]: Waiting for pending navigations...
+[1719211671.864][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.864][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.866][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.312"
+}
+[1719211671.866][INFO]: Waiting for pending navigations...
+[1719211671.867][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.873][INFO]: Waiting for pending navigations...
+[1719211671.873][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.873][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.875][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.313"
+}
+[1719211671.875][INFO]: Waiting for pending navigations...
+[1719211671.876][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.880][INFO]: Waiting for pending navigations...
+[1719211671.880][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.880][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.1"
+[1719211671.882][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.314"
+}
+[1719211671.882][INFO]: Waiting for pending navigations...
+[1719211671.883][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.887][INFO]: Waiting for pending navigations...
+[1719211671.888][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.888][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.890][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.315"
+}
+[1719211671.890][INFO]: Waiting for pending navigations...
+[1719211671.890][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.895][INFO]: Waiting for pending navigations...
+[1719211671.895][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.895][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.897][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.316"
+}
+[1719211671.897][INFO]: Waiting for pending navigations...
+[1719211671.897][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.903][INFO]: Waiting for pending navigations...
+[1719211671.904][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.904][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.905][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.317"
+}
+[1719211671.905][INFO]: Waiting for pending navigations...
+[1719211671.906][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.910][INFO]: Waiting for pending navigations...
+[1719211671.910][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.910][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.2"
+[1719211671.912][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.318"
+}
+[1719211671.912][INFO]: Waiting for pending navigations...
+[1719211671.913][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.917][INFO]: Waiting for pending navigations...
+[1719211671.917][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.918][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4"
+[1719211671.920][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.319"
+}
+[1719211671.920][INFO]: Waiting for pending navigations...
+[1719211671.920][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.925][INFO]: Waiting for pending navigations...
+[1719211671.925][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.925][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.2"
+[1719211671.927][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.320"
+}
+[1719211671.927][INFO]: Waiting for pending navigations...
+[1719211671.927][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.932][INFO]: Waiting for pending navigations...
+[1719211671.933][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.933][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.4"
+[1719211671.935][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.321"
+}
+[1719211671.935][INFO]: Waiting for pending navigations...
+[1719211671.935][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.939][INFO]: Waiting for pending navigations...
+[1719211671.939][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.939][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.2"
+[1719211671.941][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.322"
+}
+[1719211671.941][INFO]: Waiting for pending navigations...
+[1719211671.942][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.946][INFO]: Waiting for pending navigations...
+[1719211671.946][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.946][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.948][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.323"
+}
+[1719211671.948][INFO]: Waiting for pending navigations...
+[1719211671.949][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.952][INFO]: Waiting for pending navigations...
+[1719211671.953][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.953][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.955][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.DCEC5E1EED4AC468DC1E5EC6E700A52B.e.324"
+}
+[1719211671.955][INFO]: Waiting for pending navigations...
+[1719211671.959][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.964][INFO]: Waiting for pending navigations...
+[1719211671.964][INFO]: Done waiting for pending navigations. Status: ok
+[1719211671.964][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "4.3"
+[1719211671.969][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1719211671.969][INFO]: Waiting for pending navigations...
+[1719211671.969][INFO]: Done waiting for pending navigations. Status: ok
+[1719211672.517][INFO]: Waiting for pending navigations...
+[1719211674.260][INFO]: Done waiting for pending navigations. Status: ok
+[1719211674.260][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE Navigate
+[1719211677.266][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1719211677.266][INFO]: Waiting for pending navigations...
+[1719211677.267][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.290][INFO]: Waiting for pending navigations...
+[1719211677.291][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.291][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.44E1904F8749E0DE3F633F19ABE4B328.e.342"
+}
+[1719211677.296][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND ClearElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.44E1904F8749E0DE3F633F19ABE4B328.e.342"
+}
+[1719211677.296][INFO]: Waiting for pending navigations...
+[1719211677.297][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.326][INFO]: Waiting for pending navigations...
+[1719211677.326][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.326][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE ClearElement
+[1719211677.328][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.44E1904F8749E0DE3F633F19ABE4B328.e.342",
+   "text": "iPhone",
+   "value": [ "i", "P", "h", "o", "n", "e" ]
+}
+[1719211677.328][INFO]: Waiting for pending navigations...
+[1719211677.329][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.386][INFO]: Waiting for pending navigations...
+[1719211677.390][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.390][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211677.393][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.44E1904F8749E0DE3F633F19ABE4B328.e.342",
+   "text": "",
+   "value": [ "" ]
+}
+[1719211677.393][INFO]: Waiting for pending navigations...
+[1719211677.394][INFO]: Done waiting for pending navigations. Status: ok
+[1719211677.418][INFO]: Waiting for pending navigations...
+[1719211679.994][INFO]: Done waiting for pending navigations. Status: ok
+[1719211679.994][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211683.006][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='yKfJKb row']"
+}
+[1719211683.006][INFO]: Waiting for pending navigations...
+[1719211683.008][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.046][INFO]: Waiting for pending navigations...
+[1719211683.074][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.074][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.475"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.476"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.477"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.478"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.479"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.480"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.481"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.482"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.483"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.484"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.485"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.486"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.487"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.488"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.489"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.490"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.491"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.492"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.493"
+}, "..." ]
+[1719211683.081][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='KzDlHZ']"
+}
+[1719211683.081][INFO]: Waiting for pending navigations...
+[1719211683.088][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.126][INFO]: Waiting for pending navigations...
+[1719211683.128][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.128][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.499"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.500"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.501"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.502"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.503"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.504"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.505"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.506"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.507"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.508"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.509"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.510"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.511"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.512"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.513"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.514"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.515"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.516"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.517"
+}, "..." ]
+[1719211683.132][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.499"
+}
+[1719211683.132][INFO]: Waiting for pending navigations...
+[1719211683.133][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.149][INFO]: Waiting for pending navigations...
+[1719211683.149][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.149][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 (Black, 128 GB)"
+[1719211683.154][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.500"
+}
+[1719211683.154][INFO]: Waiting for pending navigations...
+[1719211683.156][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.164][INFO]: Waiting for pending navigations...
+[1719211683.164][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.164][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 (Blue, 128 GB)"
+[1719211683.167][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.501"
+}
+[1719211683.167][INFO]: Waiting for pending navigations...
+[1719211683.167][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.172][INFO]: Waiting for pending navigations...
+[1719211683.173][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.173][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Blue, 128 GB)"
+[1719211683.176][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.502"
+}
+[1719211683.176][INFO]: Waiting for pending navigations...
+[1719211683.177][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.185][INFO]: Waiting for pending navigations...
+[1719211683.186][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.186][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Midnight, 128 GB)"
+[1719211683.188][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.503"
+}
+[1719211683.188][INFO]: Waiting for pending navigations...
+[1719211683.189][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.196][INFO]: Waiting for pending navigations...
+[1719211683.197][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.197][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Starlight, 128 GB)"
+[1719211683.199][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.504"
+}
+[1719211683.199][INFO]: Waiting for pending navigations...
+[1719211683.199][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.204][INFO]: Waiting for pending navigations...
+[1719211683.204][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.204][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 (Green, 128 GB)"
+[1719211683.206][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.505"
+}
+[1719211683.206][INFO]: Waiting for pending navigations...
+[1719211683.207][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.212][INFO]: Waiting for pending navigations...
+[1719211683.212][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.212][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Purple, 128 GB)"
+[1719211683.214][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.506"
+}
+[1719211683.214][INFO]: Waiting for pending navigations...
+[1719211683.214][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.219][INFO]: Waiting for pending navigations...
+[1719211683.219][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.219][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus ((PRODUCT)RED, 128 GB)"
+[1719211683.221][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.507"
+}
+[1719211683.221][INFO]: Waiting for pending navigations...
+[1719211683.221][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.226][INFO]: Waiting for pending navigations...
+[1719211683.226][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.226][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 (Yellow, 128 GB)"
+[1719211683.228][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.508"
+}
+[1719211683.228][INFO]: Waiting for pending navigations...
+[1719211683.228][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.232][INFO]: Waiting for pending navigations...
+[1719211683.232][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.232][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 (Blue, 128 GB)"
+[1719211683.234][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.509"
+}
+[1719211683.234][INFO]: Waiting for pending navigations...
+[1719211683.236][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.240][INFO]: Waiting for pending navigations...
+[1719211683.241][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.241][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Midnight, 256 GB)"
+[1719211683.243][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.510"
+}
+[1719211683.243][INFO]: Waiting for pending navigations...
+[1719211683.243][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.249][INFO]: Waiting for pending navigations...
+[1719211683.249][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.249][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Yellow, 128 GB)"
+[1719211683.251][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.511"
+}
+[1719211683.251][INFO]: Waiting for pending navigations...
+[1719211683.251][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.257][INFO]: Waiting for pending navigations...
+[1719211683.257][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.257][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 12 (Black, 64 GB)"
+[1719211683.259][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.512"
+}
+[1719211683.259][INFO]: Waiting for pending navigations...
+[1719211683.259][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.264][INFO]: Waiting for pending navigations...
+[1719211683.265][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.265][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 Plus (Blue, 128 GB)"
+[1719211683.267][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.513"
+}
+[1719211683.267][INFO]: Waiting for pending navigations...
+[1719211683.267][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.273][INFO]: Waiting for pending navigations...
+[1719211683.274][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.274][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 13 (Starlight, 128 GB)"
+[1719211683.276][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.514"
+}
+[1719211683.276][INFO]: Waiting for pending navigations...
+[1719211683.276][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.282][INFO]: Waiting for pending navigations...
+[1719211683.283][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.283][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Yellow, 256 GB)"
+[1719211683.285][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.515"
+}
+[1719211683.285][INFO]: Waiting for pending navigations...
+[1719211683.286][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.291][INFO]: Waiting for pending navigations...
+[1719211683.292][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.292][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Blue, 256 GB)"
+[1719211683.294][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.516"
+}
+[1719211683.294][INFO]: Waiting for pending navigations...
+[1719211683.294][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.300][INFO]: Waiting for pending navigations...
+[1719211683.300][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.300][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 15 Plus (Green, 128 GB)"
+[1719211683.302][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.517"
+}
+[1719211683.302][INFO]: Waiting for pending navigations...
+[1719211683.303][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.308][INFO]: Waiting for pending navigations...
+[1719211683.308][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.308][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 13 (Pink, 128 GB)"
+[1719211683.310][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.518"
+}
+[1719211683.310][INFO]: Waiting for pending navigations...
+[1719211683.310][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.315][INFO]: Waiting for pending navigations...
+[1719211683.315][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.315][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 14 Plus (Purple, 256 GB)"
+[1719211683.317][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.519"
+}
+[1719211683.317][INFO]: Waiting for pending navigations...
+[1719211683.318][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.323][INFO]: Waiting for pending navigations...
+[1719211683.324][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.324][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 12 (Blue, 128 GB)"
+[1719211683.326][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.520"
+}
+[1719211683.326][INFO]: Waiting for pending navigations...
+[1719211683.326][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.331][INFO]: Waiting for pending navigations...
+[1719211683.332][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.332][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 13 (Blue, 256 GB)"
+[1719211683.333][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.521"
+}
+[1719211683.333][INFO]: Waiting for pending navigations...
+[1719211683.334][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.339][INFO]: Waiting for pending navigations...
+[1719211683.339][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.339][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 13 (Blue, 128 GB)"
+[1719211683.341][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.522"
+}
+[1719211683.341][INFO]: Waiting for pending navigations...
+[1719211683.341][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.346][INFO]: Waiting for pending navigations...
+[1719211683.346][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.346][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Apple iPhone 12 (Blue, 64 GB)"
+[1719211683.348][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='UkUFwK']"
+}
+[1719211683.348][INFO]: Waiting for pending navigations...
+[1719211683.349][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.364][INFO]: Waiting for pending navigations...
+[1719211683.365][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.365][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.523"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.524"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.525"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.526"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.527"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.528"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.529"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.530"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.531"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.532"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.533"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.534"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.535"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.536"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.537"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.538"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.539"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.540"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.541"
+}, "..." ]
+[1719211683.367][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.523"
+}
+[1719211683.367][INFO]: Waiting for pending navigations...
+[1719211683.367][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.372][INFO]: Waiting for pending navigations...
+[1719211683.373][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.373][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "8% off"
+[1719211683.375][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.524"
+}
+[1719211683.375][INFO]: Waiting for pending navigations...
+[1719211683.376][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.380][INFO]: Waiting for pending navigations...
+[1719211683.381][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.381][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "8% off"
+[1719211683.383][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.525"
+}
+[1719211683.383][INFO]: Waiting for pending navigations...
+[1719211683.384][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.388][INFO]: Waiting for pending navigations...
+[1719211683.388][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.388][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.389][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.526"
+}
+[1719211683.389][INFO]: Waiting for pending navigations...
+[1719211683.390][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.394][INFO]: Waiting for pending navigations...
+[1719211683.394][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.394][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.396][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.527"
+}
+[1719211683.396][INFO]: Waiting for pending navigations...
+[1719211683.398][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.402][INFO]: Waiting for pending navigations...
+[1719211683.402][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.402][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.404][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.528"
+}
+[1719211683.404][INFO]: Waiting for pending navigations...
+[1719211683.404][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.408][INFO]: Waiting for pending navigations...
+[1719211683.408][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.408][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "8% off"
+[1719211683.410][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.529"
+}
+[1719211683.410][INFO]: Waiting for pending navigations...
+[1719211683.410][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.414][INFO]: Waiting for pending navigations...
+[1719211683.414][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.414][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.416][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.530"
+}
+[1719211683.416][INFO]: Waiting for pending navigations...
+[1719211683.416][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.420][INFO]: Waiting for pending navigations...
+[1719211683.420][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.420][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.422][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.531"
+}
+[1719211683.422][INFO]: Waiting for pending navigations...
+[1719211683.422][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.429][INFO]: Waiting for pending navigations...
+[1719211683.430][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.430][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "8% off"
+[1719211683.431][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.532"
+}
+[1719211683.431][INFO]: Waiting for pending navigations...
+[1719211683.432][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.437][INFO]: Waiting for pending navigations...
+[1719211683.437][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.437][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "15% off"
+[1719211683.438][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.533"
+}
+[1719211683.438][INFO]: Waiting for pending navigations...
+[1719211683.439][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.443][INFO]: Waiting for pending navigations...
+[1719211683.444][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.444][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "25% off"
+[1719211683.446][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.534"
+}
+[1719211683.446][INFO]: Waiting for pending navigations...
+[1719211683.446][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.451][INFO]: Waiting for pending navigations...
+[1719211683.451][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.451][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "28% off"
+[1719211683.453][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.535"
+}
+[1719211683.453][INFO]: Waiting for pending navigations...
+[1719211683.454][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.459][INFO]: Waiting for pending navigations...
+[1719211683.459][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.459][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "19% off"
+[1719211683.461][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.536"
+}
+[1719211683.461][INFO]: Waiting for pending navigations...
+[1719211683.461][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.466][INFO]: Waiting for pending navigations...
+[1719211683.467][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.467][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "6% off"
+[1719211683.468][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.537"
+}
+[1719211683.468][INFO]: Waiting for pending navigations...
+[1719211683.469][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.473][INFO]: Waiting for pending navigations...
+[1719211683.473][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.474][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "11% off"
+[1719211683.475][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.538"
+}
+[1719211683.475][INFO]: Waiting for pending navigations...
+[1719211683.475][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.480][INFO]: Waiting for pending navigations...
+[1719211683.480][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.480][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "25% off"
+[1719211683.482][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.539"
+}
+[1719211683.482][INFO]: Waiting for pending navigations...
+[1719211683.482][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.486][INFO]: Waiting for pending navigations...
+[1719211683.487][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.487][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "25% off"
+[1719211683.488][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.540"
+}
+[1719211683.488][INFO]: Waiting for pending navigations...
+[1719211683.489][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.493][INFO]: Waiting for pending navigations...
+[1719211683.493][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.493][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "6% off"
+[1719211683.495][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.541"
+}
+[1719211683.495][INFO]: Waiting for pending navigations...
+[1719211683.495][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.500][INFO]: Waiting for pending navigations...
+[1719211683.500][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.500][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "11% off"
+[1719211683.502][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.542"
+}
+[1719211683.502][INFO]: Waiting for pending navigations...
+[1719211683.502][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.507][INFO]: Waiting for pending navigations...
+[1719211683.508][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.508][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "25% off"
+[1719211683.509][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.543"
+}
+[1719211683.509][INFO]: Waiting for pending navigations...
+[1719211683.510][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.513][INFO]: Waiting for pending navigations...
+[1719211683.515][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.515][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "18% off"
+[1719211683.516][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.544"
+}
+[1719211683.516][INFO]: Waiting for pending navigations...
+[1719211683.517][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.521][INFO]: Waiting for pending navigations...
+[1719211683.521][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.521][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "9% off"
+[1719211683.523][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.545"
+}
+[1719211683.523][INFO]: Waiting for pending navigations...
+[1719211683.523][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.527][INFO]: Waiting for pending navigations...
+[1719211683.528][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.528][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "11% off"
+[1719211683.530][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.F0BC67C48F0C81D54A4CB992A09407E7.e.546"
+}
+[1719211683.530][INFO]: Waiting for pending navigations...
+[1719211683.530][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.535][INFO]: Waiting for pending navigations...
+[1719211683.535][INFO]: Done waiting for pending navigations. Status: ok
+[1719211683.535][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "19% off"
+[1719211683.541][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1719211683.541][INFO]: Waiting for pending navigations...
+[1719211683.542][INFO]: Done waiting for pending navigations. Status: ok
+[1719211684.018][INFO]: Waiting for pending navigations...
+[1719211685.677][INFO]: Done waiting for pending navigations. Status: ok
+[1719211685.677][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE Navigate
+[1719211688.683][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1719211688.683][INFO]: Waiting for pending navigations...
+[1719211688.684][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.708][INFO]: Waiting for pending navigations...
+[1719211688.709][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.709][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.069507E4ED87B9DFC7DD0057A7BC8022.e.548"
+}
+[1719211688.712][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND ClearElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.069507E4ED87B9DFC7DD0057A7BC8022.e.548"
+}
+[1719211688.712][INFO]: Waiting for pending navigations...
+[1719211688.713][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.773][INFO]: Waiting for pending navigations...
+[1719211688.774][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.774][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE ClearElement
+[1719211688.777][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.069507E4ED87B9DFC7DD0057A7BC8022.e.548",
+   "text": "Coffee Mug",
+   "value": [ "C", "o", "f", "f", "e", "e", " ", "M", "u", "g" ]
+}
+[1719211688.777][INFO]: Waiting for pending navigations...
+[1719211688.777][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.932][INFO]: Waiting for pending navigations...
+[1719211688.933][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.933][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211688.936][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND TypeElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.069507E4ED87B9DFC7DD0057A7BC8022.e.548",
+   "text": "",
+   "value": [ "" ]
+}
+[1719211688.936][INFO]: Waiting for pending navigations...
+[1719211688.937][INFO]: Done waiting for pending navigations. Status: ok
+[1719211688.996][INFO]: Waiting for pending navigations...
+[1719211692.141][INFO]: Done waiting for pending navigations. Status: ok
+[1719211692.141][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE TypeElement
+[1719211695.156][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div/div/div/section[5]/div[2]/div/div[1]/div/label"
+}
+[1719211695.156][INFO]: Waiting for pending navigations...
+[1719211695.158][INFO]: Done waiting for pending navigations. Status: ok
+[1719211695.199][INFO]: Waiting for pending navigations...
+[1719211695.224][INFO]: Done waiting for pending navigations. Status: ok
+[1719211695.224][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.586"
+}
+[1719211695.228][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND ClickElement {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.586"
+}
+[1719211695.228][INFO]: Waiting for pending navigations...
+[1719211695.242][INFO]: Done waiting for pending navigations. Status: ok
+[1719211695.434][INFO]: Waiting for pending navigations...
+[1719211695.435][INFO]: Done waiting for pending navigations. Status: ok
+[1719211695.435][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE ClickElement
+[1719211698.446][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='wjcEIp']"
+}
+[1719211698.446][INFO]: Waiting for pending navigations...
+[1719211698.448][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.480][INFO]: Waiting for pending navigations...
+[1719211698.481][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.481][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.593"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.595"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.596"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.597"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.598"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.599"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.600"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.601"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.602"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.603"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.604"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.605"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.606"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.607"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.608"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.609"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.610"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.611"
+}, "..." ]
+[1719211698.485][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.593"
+}
+[1719211698.485][INFO]: Waiting for pending navigations...
+[1719211698.491][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.553][INFO]: Waiting for pending navigations...
+[1719211698.579][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.579][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "JAIPURART Wifey Hubby Printed Couple Coffee Cup for Hus..."
+[1719211698.582][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.594"
+}
+[1719211698.582][INFO]: Waiting for pending navigations...
+[1719211698.593][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.609][INFO]: Waiting for pending navigations...
+[1719211698.610][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.610][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Thiwa Tea/Milk Lid Cup Unbreakable Double Wall Hot and ..."
+[1719211698.613][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.595"
+}
+[1719211698.613][INFO]: Waiting for pending navigations...
+[1719211698.614][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.622][INFO]: Waiting for pending navigations...
+[1719211698.623][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.623][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "SK Prints Printed Magic Ceramic Coffee Mug"
+[1719211698.625][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.596"
+}
+[1719211698.625][INFO]: Waiting for pending navigations...
+[1719211698.625][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.633][INFO]: Waiting for pending navigations...
+[1719211698.634][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.634][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Nirvaana Thermos Flask with Lid Insulated Travel Tea an..."
+[1719211698.635][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.597"
+}
+[1719211698.635][INFO]: Waiting for pending navigations...
+[1719211698.635][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.641][INFO]: Waiting for pending navigations...
+[1719211698.641][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.641][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Giftspedia Photo & Text Printed Cup For Birthday , Anni..."
+[1719211698.643][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.598"
+}
+[1719211698.643][INFO]: Waiting for pending navigations...
+[1719211698.643][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.648][INFO]: Waiting for pending navigations...
+[1719211698.648][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.648][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Thiwa Double Wall Stainless Steel Tea Coffee Solid Morn..."
+[1719211698.650][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.599"
+}
+[1719211698.650][INFO]: Waiting for pending navigations...
+[1719211698.650][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.654][INFO]: Waiting for pending navigations...
+[1719211698.655][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.655][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Giftspedia Photo & Text Printed Cup For Birthday , Anni..."
+[1719211698.656][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.600"
+}
+[1719211698.656][INFO]: Waiting for pending navigations...
+[1719211698.656][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.660][INFO]: Waiting for pending navigations...
+[1719211698.660][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.660][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Thiwa Coffee and TeaMug gift for Birthday,Couple,Friend..."
+[1719211698.663][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.601"
+}
+[1719211698.663][INFO]: Waiting for pending navigations...
+[1719211698.665][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.672][INFO]: Waiting for pending navigations...
+[1719211698.673][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.673][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "PASHUPATASTRA Trust Me I'm an Engineer, Ceramic White C..."
+[1719211698.674][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.602"
+}
+[1719211698.674][INFO]: Waiting for pending navigations...
+[1719211698.675][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.678][INFO]: Waiting for pending navigations...
+[1719211698.679][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.679][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Dezzbee Happy Fathers Day Gift Glossy 330 ml White - Gi..."
+[1719211698.680][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.603"
+}
+[1719211698.680][INFO]: Waiting for pending navigations...
+[1719211698.680][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.685][INFO]: Waiting for pending navigations...
+[1719211698.685][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.685][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "heet Stainless Steel Tumbler with Silicon Aperture Stee..."
+[1719211698.687][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.604"
+}
+[1719211698.687][INFO]: Waiting for pending navigations...
+[1719211698.687][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.691][INFO]: Waiting for pending navigations...
+[1719211698.691][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.691][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "CHHAAP \"Cute Panda\" Printed Ceramic White Coffee Cerami..."
+[1719211698.693][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.605"
+}
+[1719211698.693][INFO]: Waiting for pending navigations...
+[1719211698.693][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.697][INFO]: Waiting for pending navigations...
+[1719211698.697][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.697][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "SK Prints Magic Photo and Text Photo Birthday , Anniver..."
+[1719211698.699][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.606"
+}
+[1719211698.699][INFO]: Waiting for pending navigations...
+[1719211698.699][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.704][INFO]: Waiting for pending navigations...
+[1719211698.704][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.704][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "GIFTkarde Goma & Peach Bear Printed Couple Coffees Cera..."
+[1719211698.706][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.607"
+}
+[1719211698.706][INFO]: Waiting for pending navigations...
+[1719211698.706][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.710][INFO]: Waiting for pending navigations...
+[1719211698.710][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.710][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "GOOD TO GREAT CREATION Iced Coffee Drinking Glasses wit..."
+[1719211698.712][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.608"
+}
+[1719211698.712][INFO]: Waiting for pending navigations...
+[1719211698.712][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.716][INFO]: Waiting for pending navigations...
+[1719211698.717][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.717][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Divine Handicraft Dr. to Be Ceramic Coffee or Tea Cup B..."
+[1719211698.718][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.609"
+}
+[1719211698.718][INFO]: Waiting for pending navigations...
+[1719211698.719][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.723][INFO]: Waiting for pending navigations...
+[1719211698.723][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.723][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Gift Arcadia Letter A Flower Alphabet CoffeeMug | Best ..."
+[1719211698.725][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.610"
+}
+[1719211698.725][INFO]: Waiting for pending navigations...
+[1719211698.726][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.730][INFO]: Waiting for pending navigations...
+[1719211698.730][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.730][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Wagwan Happy Birthday Gift for Brother, Gift for Sister..."
+[1719211698.731][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.611"
+}
+[1719211698.732][INFO]: Waiting for pending navigations...
+[1719211698.732][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.736][INFO]: Waiting for pending navigations...
+[1719211698.736][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.736][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "GRACIOUS MART Measuring Glass Cup/Mug with Lid & Silico..."
+[1719211698.738][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.612"
+}
+[1719211698.738][INFO]: Waiting for pending navigations...
+[1719211698.738][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.742][INFO]: Waiting for pending navigations...
+[1719211698.743][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.743][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Bhakhand Multi Purpose Steel Insulated Camera Lens Shap..."
+[1719211698.744][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.613"
+}
+[1719211698.744][INFO]: Waiting for pending navigations...
+[1719211698.745][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.749][INFO]: Waiting for pending navigations...
+[1719211698.749][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.749][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "ECFAK Friend: Doodle Ceramic Coffee Mug"
+[1719211698.751][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.614"
+}
+[1719211698.751][INFO]: Waiting for pending navigations...
+[1719211698.751][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.755][INFO]: Waiting for pending navigations...
+[1719211698.756][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.756][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Nirvair Travel, Insulated Coffee with Leakproof Lid, Va..."
+[1719211698.757][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.615"
+}
+[1719211698.757][INFO]: Waiting for pending navigations...
+[1719211698.758][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.762][INFO]: Waiting for pending navigations...
+[1719211698.763][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.763][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Flipkart SmartBuy Steel Pack of 4 Stainless Steel Coffe..."
+[1719211698.764][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.616"
+}
+[1719211698.764][INFO]: Waiting for pending navigations...
+[1719211698.765][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.769][INFO]: Waiting for pending navigations...
+[1719211698.769][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.769][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Murli Textiles PASHUPATASTRA \"You Are My Life\" (Couple ..."
+[1719211698.771][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.617"
+}
+[1719211698.771][INFO]: Waiting for pending navigations...
+[1719211698.771][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.775][INFO]: Waiting for pending navigations...
+[1719211698.776][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.776][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Brewsaga Glass Tumbler With Bamboo Lid And Glass Straw ..."
+[1719211698.777][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.618"
+}
+[1719211698.777][INFO]: Waiting for pending navigations...
+[1719211698.777][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.781][INFO]: Waiting for pending navigations...
+[1719211698.782][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.782][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "daesgesage Tea Glass Can Straw Wooden Cold Beverages Te..."
+[1719211698.783][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.619"
+}
+[1719211698.783][INFO]: Waiting for pending navigations...
+[1719211698.784][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.790][INFO]: Waiting for pending navigations...
+[1719211698.792][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.792][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "JAIPURART World's Best Papa Best Gift For Dad Birthday,..."
+[1719211698.794][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.620"
+}
+[1719211698.794][INFO]: Waiting for pending navigations...
+[1719211698.795][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.802][INFO]: Waiting for pending navigations...
+[1719211698.803][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.803][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "MILTON Thermosteel | Hot & Cold | Soup Flask | Tea Stai..."
+[1719211698.805][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.621"
+}
+[1719211698.805][INFO]: Waiting for pending navigations...
+[1719211698.806][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.814][INFO]: Waiting for pending navigations...
+[1719211698.814][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.814][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Gift Arcadia Happy Smile with Quote Printed CoffeeMug, ..."
+[1719211698.816][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.622"
+}
+[1719211698.816][INFO]: Waiting for pending navigations...
+[1719211698.817][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.824][INFO]: Waiting for pending navigations...
+[1719211698.826][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.826][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "JAIPURART Premium Quality Ceramic Coffee Mug"
+[1719211698.829][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.623"
+}
+[1719211698.829][INFO]: Waiting for pending navigations...
+[1719211698.830][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.838][INFO]: Waiting for pending navigations...
+[1719211698.839][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.839][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "Wagwan Blessed My Brother Happy Birthday Gift for Broth..."
+[1719211698.841][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.624"
+}
+[1719211698.841][INFO]: Waiting for pending navigations...
+[1719211698.842][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.850][INFO]: Waiting for pending navigations...
+[1719211698.851][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.851][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "THE INDIA STYLE white multi pari #50 Ceramic Coffee Mug"
+[1719211698.853][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.625"
+}
+[1719211698.853][INFO]: Waiting for pending navigations...
+[1719211698.854][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.862][INFO]: Waiting for pending navigations...
+[1719211698.863][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.863][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "PRIDE STORE Panda Ceramic Coffee Milk Tea Beverages mug..."
+[1719211698.865][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.626"
+}
+[1719211698.865][INFO]: Waiting for pending navigations...
+[1719211698.865][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.874][INFO]: Waiting for pending navigations...
+[1719211698.874][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.874][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "BOROSIL Hydra Coffeemate Vacuum Insulated Hot & Cold Sp..."
+[1719211698.876][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.627"
+}
+[1719211698.876][INFO]: Waiting for pending navigations...
+[1719211698.876][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.883][INFO]: Waiting for pending navigations...
+[1719211698.884][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.884][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "BE UNIQUE You Are Special Attractive Design Ceramic Cof..."
+[1719211698.886][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.628"
+}
+[1719211698.886][INFO]: Waiting for pending navigations...
+[1719211698.887][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.895][INFO]: Waiting for pending navigations...
+[1719211698.896][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.896][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "JAIPURART Best Father In The World Best Gift For Father..."
+[1719211698.898][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.629"
+}
+[1719211698.898][INFO]: Waiting for pending navigations...
+[1719211698.899][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.906][INFO]: Waiting for pending navigations...
+[1719211698.906][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.906][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "THE SD STORE Dad & Mom Couple Gift for Mummy Papa, Anni..."
+[1719211698.908][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.630"
+}
+[1719211698.909][INFO]: Waiting for pending navigations...
+[1719211698.909][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.914][INFO]: Waiting for pending navigations...
+[1719211698.915][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.915][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "THE SD STORE Anniversary Gift for Mom and Dad Coffee mu..."
+[1719211698.916][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.631"
+}
+[1719211698.916][INFO]: Waiting for pending navigations...
+[1719211698.917][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.921][INFO]: Waiting for pending navigations...
+[1719211698.921][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.921][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "DANDY LINES PANAMA 90048 Bone China Coffee Mug"
+[1719211698.922][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.632"
+}
+[1719211698.922][INFO]: Waiting for pending navigations...
+[1719211698.923][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.927][INFO]: Waiting for pending navigations...
+[1719211698.928][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.928][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "the anuja Leather Grip Coffee Cup Sipper Glass with Str..."
+[1719211698.931][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//img[@class='DByuf4']"
+}
+[1719211698.931][INFO]: Waiting for pending navigations...
+[1719211698.931][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.950][INFO]: Waiting for pending navigations...
+[1719211698.951][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.951][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.633"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.634"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.635"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.636"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.637"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.638"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.639"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.640"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.641"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.642"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.643"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.644"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.645"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.646"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.647"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.648"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.649"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.650"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.651"
+}, "..." ]
+[1719211698.954][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.633"
+}
+[1719211698.954][INFO]: Waiting for pending navigations...
+[1719211698.954][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.958][INFO]: Waiting for pending navigations...
+[1719211698.959][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.959][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.960][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.634"
+}
+[1719211698.960][INFO]: Waiting for pending navigations...
+[1719211698.961][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.964][INFO]: Waiting for pending navigations...
+[1719211698.965][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.965][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.966][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.635"
+}
+[1719211698.966][INFO]: Waiting for pending navigations...
+[1719211698.966][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.970][INFO]: Waiting for pending navigations...
+[1719211698.970][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.970][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.971][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.636"
+}
+[1719211698.972][INFO]: Waiting for pending navigations...
+[1719211698.972][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.976][INFO]: Waiting for pending navigations...
+[1719211698.976][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.976][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.977][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.637"
+}
+[1719211698.977][INFO]: Waiting for pending navigations...
+[1719211698.978][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.981][INFO]: Waiting for pending navigations...
+[1719211698.982][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.982][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.983][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.638"
+}
+[1719211698.983][INFO]: Waiting for pending navigations...
+[1719211698.983][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.987][INFO]: Waiting for pending navigations...
+[1719211698.987][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.987][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.989][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.639"
+}
+[1719211698.989][INFO]: Waiting for pending navigations...
+[1719211698.989][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.993][INFO]: Waiting for pending navigations...
+[1719211698.993][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.993][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211698.995][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.640"
+}
+[1719211698.995][INFO]: Waiting for pending navigations...
+[1719211698.995][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.998][INFO]: Waiting for pending navigations...
+[1719211698.999][INFO]: Done waiting for pending navigations. Status: ok
+[1719211698.999][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.000][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.641"
+}
+[1719211699.000][INFO]: Waiting for pending navigations...
+[1719211699.000][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.004][INFO]: Waiting for pending navigations...
+[1719211699.004][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.004][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.005][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.642"
+}
+[1719211699.005][INFO]: Waiting for pending navigations...
+[1719211699.006][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.009][INFO]: Waiting for pending navigations...
+[1719211699.010][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.010][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.012][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.643"
+}
+[1719211699.012][INFO]: Waiting for pending navigations...
+[1719211699.012][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.015][INFO]: Waiting for pending navigations...
+[1719211699.016][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.016][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.017][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.644"
+}
+[1719211699.017][INFO]: Waiting for pending navigations...
+[1719211699.017][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.021][INFO]: Waiting for pending navigations...
+[1719211699.021][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.021][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.023][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.645"
+}
+[1719211699.023][INFO]: Waiting for pending navigations...
+[1719211699.023][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.026][INFO]: Waiting for pending navigations...
+[1719211699.027][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.027][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.028][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.646"
+}
+[1719211699.028][INFO]: Waiting for pending navigations...
+[1719211699.028][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.033][INFO]: Waiting for pending navigations...
+[1719211699.033][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.033][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.034][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.647"
+}
+[1719211699.034][INFO]: Waiting for pending navigations...
+[1719211699.036][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.040][INFO]: Waiting for pending navigations...
+[1719211699.040][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.040][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.041][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.648"
+}
+[1719211699.041][INFO]: Waiting for pending navigations...
+[1719211699.042][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.045][INFO]: Waiting for pending navigations...
+[1719211699.045][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.045][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.047][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.649"
+}
+[1719211699.047][INFO]: Waiting for pending navigations...
+[1719211699.047][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.050][INFO]: Waiting for pending navigations...
+[1719211699.051][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.051][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.052][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.650"
+}
+[1719211699.052][INFO]: Waiting for pending navigations...
+[1719211699.052][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.056][INFO]: Waiting for pending navigations...
+[1719211699.057][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.057][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.058][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.651"
+}
+[1719211699.058][INFO]: Waiting for pending navigations...
+[1719211699.059][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.062][INFO]: Waiting for pending navigations...
+[1719211699.063][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.063][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.064][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.652"
+}
+[1719211699.064][INFO]: Waiting for pending navigations...
+[1719211699.064][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.068][INFO]: Waiting for pending navigations...
+[1719211699.068][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.068][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.070][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.653"
+}
+[1719211699.070][INFO]: Waiting for pending navigations...
+[1719211699.070][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.074][INFO]: Waiting for pending navigations...
+[1719211699.076][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.076][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.077][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.654"
+}
+[1719211699.077][INFO]: Waiting for pending navigations...
+[1719211699.077][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.080][INFO]: Waiting for pending navigations...
+[1719211699.080][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.080][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.082][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.655"
+}
+[1719211699.082][INFO]: Waiting for pending navigations...
+[1719211699.082][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.085][INFO]: Waiting for pending navigations...
+[1719211699.086][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.086][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.087][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.656"
+}
+[1719211699.087][INFO]: Waiting for pending navigations...
+[1719211699.088][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.091][INFO]: Waiting for pending navigations...
+[1719211699.091][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.091][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.093][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.657"
+}
+[1719211699.093][INFO]: Waiting for pending navigations...
+[1719211699.094][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.097][INFO]: Waiting for pending navigations...
+[1719211699.098][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.098][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.099][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.658"
+}
+[1719211699.099][INFO]: Waiting for pending navigations...
+[1719211699.099][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.103][INFO]: Waiting for pending navigations...
+[1719211699.103][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.103][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.105][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.659"
+}
+[1719211699.105][INFO]: Waiting for pending navigations...
+[1719211699.105][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.108][INFO]: Waiting for pending navigations...
+[1719211699.108][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.108][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.110][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.660"
+}
+[1719211699.110][INFO]: Waiting for pending navigations...
+[1719211699.110][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.114][INFO]: Waiting for pending navigations...
+[1719211699.114][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.114][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.115][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.661"
+}
+[1719211699.115][INFO]: Waiting for pending navigations...
+[1719211699.115][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.119][INFO]: Waiting for pending navigations...
+[1719211699.119][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.119][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.120][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.662"
+}
+[1719211699.120][INFO]: Waiting for pending navigations...
+[1719211699.122][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.126][INFO]: Waiting for pending navigations...
+[1719211699.126][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.126][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.128][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.663"
+}
+[1719211699.128][INFO]: Waiting for pending navigations...
+[1719211699.129][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.132][INFO]: Waiting for pending navigations...
+[1719211699.133][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.133][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.134][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.664"
+}
+[1719211699.134][INFO]: Waiting for pending navigations...
+[1719211699.134][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.138][INFO]: Waiting for pending navigations...
+[1719211699.139][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.139][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.140][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.665"
+}
+[1719211699.140][INFO]: Waiting for pending navigations...
+[1719211699.140][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.144][INFO]: Waiting for pending navigations...
+[1719211699.144][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.144][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.146][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.666"
+}
+[1719211699.146][INFO]: Waiting for pending navigations...
+[1719211699.146][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.149][INFO]: Waiting for pending navigations...
+[1719211699.149][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.149][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.151][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.667"
+}
+[1719211699.151][INFO]: Waiting for pending navigations...
+[1719211699.151][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.154][INFO]: Waiting for pending navigations...
+[1719211699.154][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.154][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.156][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.668"
+}
+[1719211699.156][INFO]: Waiting for pending navigations...
+[1719211699.156][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.160][INFO]: Waiting for pending navigations...
+[1719211699.160][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.161][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.162][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.669"
+}
+[1719211699.162][INFO]: Waiting for pending navigations...
+[1719211699.163][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.168][INFO]: Waiting for pending navigations...
+[1719211699.170][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.170][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.171][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.670"
+}
+[1719211699.171][INFO]: Waiting for pending navigations...
+[1719211699.172][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.176][INFO]: Waiting for pending navigations...
+[1719211699.176][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.176][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.178][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.671"
+}
+[1719211699.178][INFO]: Waiting for pending navigations...
+[1719211699.178][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.182][INFO]: Waiting for pending navigations...
+[1719211699.182][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.182][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.183][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.672"
+}
+[1719211699.183][INFO]: Waiting for pending navigations...
+[1719211699.187][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.194][INFO]: Waiting for pending navigations...
+[1719211699.195][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.195][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText ""
+[1719211699.198][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[@class='Wphh3N']"
+}
+[1719211699.198][INFO]: Waiting for pending navigations...
+[1719211699.199][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.217][INFO]: Waiting for pending navigations...
+[1719211699.217][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.217][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.673"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.674"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.675"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.676"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.677"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.678"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.679"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.680"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.681"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.682"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.683"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.684"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.685"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.686"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.687"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.688"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.689"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.690"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.691"
+}, "..." ]
+[1719211699.219][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.673"
+}
+[1719211699.219][INFO]: Waiting for pending navigations...
+[1719211699.221][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.233][INFO]: Waiting for pending navigations...
+[1719211699.234][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.234][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(6,172)"
+[1719211699.235][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.674"
+}
+[1719211699.235][INFO]: Waiting for pending navigations...
+[1719211699.236][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.240][INFO]: Waiting for pending navigations...
+[1719211699.240][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.240][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(7,694)"
+[1719211699.241][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.675"
+}
+[1719211699.241][INFO]: Waiting for pending navigations...
+[1719211699.242][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.246][INFO]: Waiting for pending navigations...
+[1719211699.247][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.247][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(1,442)"
+[1719211699.248][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.676"
+}
+[1719211699.248][INFO]: Waiting for pending navigations...
+[1719211699.248][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.252][INFO]: Waiting for pending navigations...
+[1719211699.252][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.252][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(1,212)"
+[1719211699.254][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.677"
+}
+[1719211699.254][INFO]: Waiting for pending navigations...
+[1719211699.254][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.258][INFO]: Waiting for pending navigations...
+[1719211699.258][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.258][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(431)"
+[1719211699.259][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.678"
+}
+[1719211699.259][INFO]: Waiting for pending navigations...
+[1719211699.260][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.263][INFO]: Waiting for pending navigations...
+[1719211699.264][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.264][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(529)"
+[1719211699.265][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.679"
+}
+[1719211699.265][INFO]: Waiting for pending navigations...
+[1719211699.265][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.269][INFO]: Waiting for pending navigations...
+[1719211699.270][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.270][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(263)"
+[1719211699.271][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.680"
+}
+[1719211699.271][INFO]: Waiting for pending navigations...
+[1719211699.272][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.275][INFO]: Waiting for pending navigations...
+[1719211699.275][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.275][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(6,387)"
+[1719211699.276][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.681"
+}
+[1719211699.276][INFO]: Waiting for pending navigations...
+[1719211699.277][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.281][INFO]: Waiting for pending navigations...
+[1719211699.281][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.281][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(2,213)"
+[1719211699.283][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.682"
+}
+[1719211699.283][INFO]: Waiting for pending navigations...
+[1719211699.283][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.287][INFO]: Waiting for pending navigations...
+[1719211699.288][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.288][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(42)"
+[1719211699.289][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.683"
+}
+[1719211699.289][INFO]: Waiting for pending navigations...
+[1719211699.290][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.294][INFO]: Waiting for pending navigations...
+[1719211699.294][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.294][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(55)"
+[1719211699.295][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.684"
+}
+[1719211699.295][INFO]: Waiting for pending navigations...
+[1719211699.296][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.301][INFO]: Waiting for pending navigations...
+[1719211699.301][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.301][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(1,996)"
+[1719211699.302][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.685"
+}
+[1719211699.302][INFO]: Waiting for pending navigations...
+[1719211699.302][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.306][INFO]: Waiting for pending navigations...
+[1719211699.306][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.306][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(211)"
+[1719211699.308][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.686"
+}
+[1719211699.308][INFO]: Waiting for pending navigations...
+[1719211699.308][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.312][INFO]: Waiting for pending navigations...
+[1719211699.312][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.312][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(2,563)"
+[1719211699.314][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.687"
+}
+[1719211699.314][INFO]: Waiting for pending navigations...
+[1719211699.314][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.318][INFO]: Waiting for pending navigations...
+[1719211699.319][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.319][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(211)"
+[1719211699.320][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.688"
+}
+[1719211699.320][INFO]: Waiting for pending navigations...
+[1719211699.320][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.324][INFO]: Waiting for pending navigations...
+[1719211699.324][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.324][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(891)"
+[1719211699.325][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.689"
+}
+[1719211699.325][INFO]: Waiting for pending navigations...
+[1719211699.326][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.330][INFO]: Waiting for pending navigations...
+[1719211699.330][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.330][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(1,795)"
+[1719211699.332][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.690"
+}
+[1719211699.332][INFO]: Waiting for pending navigations...
+[1719211699.332][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.336][INFO]: Waiting for pending navigations...
+[1719211699.336][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.336][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(956)"
+[1719211699.338][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.691"
+}
+[1719211699.338][INFO]: Waiting for pending navigations...
+[1719211699.338][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.341][INFO]: Waiting for pending navigations...
+[1719211699.341][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.341][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(175)"
+[1719211699.343][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.692"
+}
+[1719211699.343][INFO]: Waiting for pending navigations...
+[1719211699.343][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.346][INFO]: Waiting for pending navigations...
+[1719211699.347][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.347][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(704)"
+[1719211699.348][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.693"
+}
+[1719211699.348][INFO]: Waiting for pending navigations...
+[1719211699.349][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.352][INFO]: Waiting for pending navigations...
+[1719211699.353][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.353][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(905)"
+[1719211699.354][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.694"
+}
+[1719211699.354][INFO]: Waiting for pending navigations...
+[1719211699.354][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.358][INFO]: Waiting for pending navigations...
+[1719211699.358][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.358][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(216)"
+[1719211699.360][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.695"
+}
+[1719211699.360][INFO]: Waiting for pending navigations...
+[1719211699.360][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.363][INFO]: Waiting for pending navigations...
+[1719211699.366][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.366][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(7,350)"
+[1719211699.367][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.696"
+}
+[1719211699.367][INFO]: Waiting for pending navigations...
+[1719211699.368][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.378][INFO]: Waiting for pending navigations...
+[1719211699.388][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.388][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(2,285)"
+[1719211699.391][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.697"
+}
+[1719211699.391][INFO]: Waiting for pending navigations...
+[1719211699.392][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.406][INFO]: Waiting for pending navigations...
+[1719211699.416][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.416][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(18)"
+[1719211699.419][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.698"
+}
+[1719211699.419][INFO]: Waiting for pending navigations...
+[1719211699.420][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.438][INFO]: Waiting for pending navigations...
+[1719211699.440][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.440][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(71)"
+[1719211699.442][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.699"
+}
+[1719211699.442][INFO]: Waiting for pending navigations...
+[1719211699.443][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.452][INFO]: Waiting for pending navigations...
+[1719211699.453][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.453][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(60)"
+[1719211699.455][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.700"
+}
+[1719211699.455][INFO]: Waiting for pending navigations...
+[1719211699.455][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.463][INFO]: Waiting for pending navigations...
+[1719211699.463][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.463][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(545)"
+[1719211699.465][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.701"
+}
+[1719211699.465][INFO]: Waiting for pending navigations...
+[1719211699.466][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.473][INFO]: Waiting for pending navigations...
+[1719211699.474][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.474][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(760)"
+[1719211699.475][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.702"
+}
+[1719211699.475][INFO]: Waiting for pending navigations...
+[1719211699.476][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.483][INFO]: Waiting for pending navigations...
+[1719211699.483][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.483][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(1,008)"
+[1719211699.485][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.703"
+}
+[1719211699.485][INFO]: Waiting for pending navigations...
+[1719211699.485][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.491][INFO]: Waiting for pending navigations...
+[1719211699.491][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.491][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(695)"
+[1719211699.492][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.704"
+}
+[1719211699.492][INFO]: Waiting for pending navigations...
+[1719211699.493][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.498][INFO]: Waiting for pending navigations...
+[1719211699.499][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.499][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(616)"
+[1719211699.500][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.705"
+}
+[1719211699.500][INFO]: Waiting for pending navigations...
+[1719211699.500][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.506][INFO]: Waiting for pending navigations...
+[1719211699.506][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.506][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(299)"
+[1719211699.507][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.706"
+}
+[1719211699.507][INFO]: Waiting for pending navigations...
+[1719211699.508][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.511][INFO]: Waiting for pending navigations...
+[1719211699.512][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.512][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(237)"
+[1719211699.513][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.707"
+}
+[1719211699.513][INFO]: Waiting for pending navigations...
+[1719211699.513][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.518][INFO]: Waiting for pending navigations...
+[1719211699.518][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.518][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(116)"
+[1719211699.519][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.708"
+}
+[1719211699.519][INFO]: Waiting for pending navigations...
+[1719211699.520][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.523][INFO]: Waiting for pending navigations...
+[1719211699.524][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.524][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(6)"
+[1719211699.525][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.709"
+}
+[1719211699.525][INFO]: Waiting for pending navigations...
+[1719211699.525][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.529][INFO]: Waiting for pending navigations...
+[1719211699.530][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.530][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(249)"
+[1719211699.531][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.710"
+}
+[1719211699.531][INFO]: Waiting for pending navigations...
+[1719211699.531][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.535][INFO]: Waiting for pending navigations...
+[1719211699.535][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.535][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(180)"
+[1719211699.540][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.711"
+}
+[1719211699.540][INFO]: Waiting for pending navigations...
+[1719211699.540][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.544][INFO]: Waiting for pending navigations...
+[1719211699.545][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.545][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(384)"
+[1719211699.546][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND GetElementText {
+   "id": "f.A20D1623FEFABE07608F396348589962.d.BEBC22BBAA65CBBA506EF6BE51EF7F00.e.712"
+}
+[1719211699.546][INFO]: Waiting for pending navigations...
+[1719211699.547][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.550][INFO]: Waiting for pending navigations...
+[1719211699.551][INFO]: Done waiting for pending navigations. Status: ok
+[1719211699.551][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE GetElementText "(38)"
+[1719211699.554][INFO]: [c79de09ec766421355deebd6b53f1210] COMMAND CloseWindow {
+}
+[1719211699.704][INFO]: [c79de09ec766421355deebd6b53f1210] RESPONSE CloseWindow [  ]
