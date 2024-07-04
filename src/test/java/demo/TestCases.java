@@ -19,6 +19,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import demo.wrappers.Wrappers;
+
 public class TestCases {
     static  ChromeDriver driver;
     
@@ -70,7 +72,8 @@ public class TestCases {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Popularity']")));
         //3. Sort by popularity and print the count of items with rating less than or equal to 4 stars.
         WebElement sortByElement = driver.findElement(By.xpath("//div[text()='Popularity']"));
-        sortByElement.click();
+        //sortByElement.click();
+        Wrappers.clickOnElement(sortByElement, driver);
         Thread.sleep(3000);
         List<WebElement> items = driver.findElements(By.xpath("//div[@class='_75nlfW']"));
         int itemSize = items.size();
@@ -150,7 +153,8 @@ public class TestCases {
         searchBox.sendKeys(Keys.ENTER);
         Thread.sleep(3000);  
         WebElement selectStar = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div/div/div/section[5]/div[2]/div/div[1]/div/label"));
-        selectStar.click();
+        //selectStar.click();
+        Wrappers.clickOnElement(selectStar, driver);
         Thread.sleep(3000);
 
         List<WebElement> titleOfCoffeemug = driver.findElements(By.xpath("//a[@class='wjcEIp']"));
